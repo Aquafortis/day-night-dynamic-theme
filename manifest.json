@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Day Night Dynamic Theme",
+    "description": "A theme that changes throughout the day and night.",
+    "homepage_url": "https://github.com/Aquafortis/day-night-dynamic-theme",
+    "version": "1.0",
+    "permissions": [
+        "alarms",
+        "theme"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "48": "icons/icon.png",
+        "96": "icons/icon@2x.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "day-night-theme@aquafortis",
+            "strict_min_version": "55.0a2"
+        }
+    }
+}
