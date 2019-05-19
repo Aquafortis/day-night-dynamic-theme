@@ -3,7 +3,7 @@
     "name": "Day Night Dynamic Theme",
     "description": "A theme that changes throughout the day and night.",
     "homepage_url": "https://github.com/Aquafortis/day-night-dynamic-theme",
-    "version": "1.0",
+    "version": "1.1",
     "permissions": [
         "alarms",
         "theme"
