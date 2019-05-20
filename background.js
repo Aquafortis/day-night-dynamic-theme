@@ -178,13 +178,13 @@ function checkNow() {
     let date = new Date();
     let hour = date.getHours();
     if (hour === 1) {
-        setAssets("16");
-    }
-    else if (hour === 2) {
         setAssets("14");
     }
-    else if (hour === 3) {
+    else if (hour === 2) {
         setAssets("15");
+    }
+    else if (hour === 3) {
+        setAssets("16");
     }
     else if (hour === 4) {
         setAssets("16");
@@ -208,46 +208,46 @@ function checkNow() {
         setAssets("6");
     }
     else if (hour === 11) {
-        setAssets("6");
+        setAssets("7");
     }
     else if (hour === 12) {
         setAssets("7");
     }
     else if (hour === 13) {
-        setAssets("7");
-    }
-    else if (hour === 14) {
         setAssets("8");
     }
-    else if (hour === 15) {
+    else if (hour === 14) {
         setAssets("9");
     }
-    else if (hour === 16) {
+    else if (hour === 15) {
         setAssets("10");
     }
-    else if (hour === 17) {
+    else if (hour === 16) {
         setAssets("11");
     }
-    else if (hour === 18) {
+    else if (hour === 17) {
         setAssets("12");
     }
-    else if (hour === 19) {
+    else if (hour === 18) {
         setAssets("13");
     }
-    else if (hour === 20) {
+    else if (hour === 19) {
         setAssets("14");
+    }
+    else if (hour === 20) {
+        setAssets("15");
     }
     else if (hour === 21) {
-        setAssets("15");
-    }
-    else if (hour === 22) {
         setAssets("16");
     }
-    else if (hour === 23) {
+    else if (hour === 22) {
         setAssets("14");
     }
-    else if (hour === 0) {
+    else if (hour === 23) {
         setAssets("15");
+    }
+    else if (hour === 0) {
+        setAssets("16");
     }
 }
 checkNow();
