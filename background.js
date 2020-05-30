@@ -1,5 +1,5 @@
 /*! @preserve
- * Copyright (c) 2019 Aquafortis
+ * Copyright (c) 2020 Aquafortis
  * Licensed under MPL-2.0 (https://github.com/Aquafortis/day-night-dynamic-theme)
  */
 var currentAssets = "";
